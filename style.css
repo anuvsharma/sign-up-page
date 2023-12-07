@@ -1,3 +1,28 @@
+body{
+    margin: 0;
+}
+
 h1{
     color: red;    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    min-height: 100vh;
+}
+
+.side-bar-image{
+    background-image: url(./hunter-reilly-NXqwF04si8c-unsplash.jpg);
+    background-size: cover;
+    padding: 0;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    font-size: 34px;
+    margin-top: 200px;
+    align-items: center;
 }
